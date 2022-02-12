@@ -1,0 +1,5 @@
+SOP5 : Question/Aim
+
+Create event driven JavaScript program for the following. Make use of appropriate variables,JavaScript inbuilt string functions and control structures.
+-> To accept string from user and reverse the given 
+string and check whether it is palindrome or not.

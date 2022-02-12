@@ -1,0 +1,5 @@
+SOP2 : Question/Aim
+
+Create a webpage named audio.html to set an audio file in web page with controls such that it uses HTML5 elements. The audio file must play as soon as the web page loads in the browser and it will start over again, every time when it is completed.
+
+Create another webpage named audio1.html which provides multiple source file formats for the same audio file that plays a sound automatically with controls. The browser should display the message with appropriate attribute ,when audio file is not supported by the browser. The code must incorporate the list of sound file formats(like wav,mp3 or ogg etc.)

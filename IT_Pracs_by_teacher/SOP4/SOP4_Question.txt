@@ -1,0 +1,4 @@
+SOP4 : Question/Aim
+
+Create event driven JavaScript program for the following. Make use of appropriate variables  JavaScript inbuilt string functions and control structures.
+-> To accept string from user and count number of vowels in the given string.

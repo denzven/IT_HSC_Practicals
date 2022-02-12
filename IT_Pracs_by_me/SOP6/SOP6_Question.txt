@@ -1,0 +1,7 @@
+SOP6 : Question/Aim
+
+Write a PHP program to check if a person is eligible to vote or not. The program should include the following:
+
+Minimum age required for vote is 18.
+Use PHP functions
+Use Decision making statement

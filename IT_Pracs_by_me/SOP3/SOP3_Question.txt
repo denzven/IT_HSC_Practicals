@@ -1,0 +1,5 @@
+SOP3 : Question/Aim
+
+Create a webpage named video.html to display a video file on web page and plays automatically with controls. The dimension of video area should be 150 * 150 pixels.Create another web page which provide multiple source file formats for the same video file that plays a video automatically with controls. The dimension of video area should be 100 * 100 pixels.
+
+The browser should display the message with appropriate attribute, when video file is not supported by the browser. The code must incorporate the list of video file formats (like webM, mp4 or ogg etc).

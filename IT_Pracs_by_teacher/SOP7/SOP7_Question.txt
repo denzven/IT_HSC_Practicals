@@ -1,0 +1,3 @@
+SOP7 : Question/Aim
+
+Write a PHP function to count the total number of vowels(a,e,i,o,u) from the string. Accept a string by using HTML form.
