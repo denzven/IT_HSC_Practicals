@@ -1,34 +1,29 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-    <title>
-        Count number of vowels in a string
-    </title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> Count number of vowels in a string</title>
     <script type="text/javascript">
-    function cnt() {
-        var s, i, ch, c;
-        c = 0;
-        s = f1.t1.value;
-        s = s.toUpperCase();
-        for (i = 0; i < s.length; i++) {
-            ch = s.charAt(i);
-            if (ch == "A" || ch == "E" || ch == "I" || ch == "O" ||
-                ch == "U")
-                c++;
+        function getNumberOfVowels() {
+            var numberOfVowels = 0;
+            var inputString = f1.t1.value.toUpperCase();
+            for (var i = 0; i < inputString.length; i++) {
+                Char = inputString.charAt(i);
+
+                if (Char == "A" || Char == "E" || Char == "I" || Char == "O" || Char == "U") {
+                    numberOfVowels++;
+                }
+                alert("Number of vowels in " + inputString + "are " + numberOfVowels);
+            }
         }
-        alert("Number of vowels in the " + s + " are " + c);
-    }
     </script>
 </head>
-
 <body>
     <form name="f1">
-        Enter Name :
-        <input type="text" name="t1"><br><br>
-        <input type="button" name="b1" value="Count 
-Vowels" onClick="cnt()">
+        Enter Name: <input type="text" name="t1">
+        <br><br>
+        <input type="button" name="b1" value="CountVowels" onClick="getNumberOfVowels()">
     </form>
 </body>
-
 </html>

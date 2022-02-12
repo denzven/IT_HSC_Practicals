@@ -1,38 +1,35 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-    <title>
-        Palindrome of a String
-    </title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Palindrome of a String</title>
     <script type="text/javascript">
-    function chk() {
-        var a, s, i, ch, n, p;
-        a = f1.t1.value;
-        s = a.toLowerCase();
-        n = s.length;
-        p = 1;
-        for (i = 0; i < n / 2; i++) {
-            if (s.charAt(i) != s.charAt(n - 1 - i)) {
-                p = 0;
-                break;
+        function checkPalindrome() {
+            var inputString = f1.t1.value.toLowerCase();
+            var lengthOfString = inputString.length;
+            var isPalindrome = 1;
+
+            for (var i = 0; i < lengthOfString/2; i++) {
+                if (inputString.charAt(i) != inputString.charAt(lengthOfString-1-i)) {
+                    p = 0;
+                    break;
+                }
+            }
+
+            if (isPalindrome == 1) {
+                alert(inputString + "is a palindrome");
+            } else {
+                alert(inputString + "is not a palindrome");
             }
         }
-        if (p == 1)
-            alert("String is palindrome");
-        else
-            alert("String is not a palindrome");
-    }
     </script>
 </head>
-
 <body>
     <form name="f1">
-        Enter Name :
-        <input type="text" name="t1"><br><br>
-        <input type="button" name="b1" value="CHECK 
-PALINDROME" onClick="chk()">
+        Enter Name :<input type="text" name="t1">
+        <br><br>
+        <input type="button" name="b1" value="Check Palindrome" onClick="checkPalindrome()">
     </form>
 </body>
-
 </html>
