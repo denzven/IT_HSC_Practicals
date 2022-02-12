@@ -1,0 +1,12 @@
+SOP1 : Question/Aim
+
+Create a website using HTML5 and CSS using any 4 CSS properties. 
+Write a code for 2 separate pages having different file names such as first page as Index.html and second page as page2.html.Use any theme such as college profile or company profile etc. 
+
+Every page must contain proper Meta information and design web page as follows:- 
+
+1) The index page must contain a heading which is highest among other text on pages and must be at centre of the page. 
+
+There must be a paragraph which introduces general information about the theme chosen must have at least 3 physical style tags and one image with alternate text. This page must be connected to other two pages with proper navigational links.
+
+2) The 2nd page must contain the feedback or enrolment form related with theme chosen with features of HTML5. The form must contain text element and email address of the company or person. Include the submit button
